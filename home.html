@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Run to the Beat</title>
+    <link rel="icon" href="images/note.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-default" id="bar">
+        <div class="navbar-header">
+            <a href="#.html" class="pull-left"><img id="logo" src="images/run.png"></a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="http://www.cs.northwestern.edu/~pardo/courses/eecs352/">
+                    <div id="rightNav">EECS 352: Machine Perception of Music and Audio
+                        <br/>Professor Bryan Pardo, Northwestern University</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.northwestern.edu/">
+                    <div style="padding-right:1%"><img id="NUlogo" src=images/NU%20Logo.png></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 id="title">
+        <b>Determining a Running Playlist Based on <br/>
+            Preferred Pace and Song Tempo</b>
+    </h1>
+    <h2 id="names">A <i>Joe Harris</i> and <i>Nick Roy</i> Project</h2>
+
+    <div class="verticalPadding"></div>
+
+    <div class="input-group input-group-lg" id="inputs">
+        <span class="input-group-addon" id="sizing-addon1">Desired Pace</span>
+        <input type="text" class="form-control" placeholder="Enter MPH" aria-describedby="sizing-addon1" id="pace">
+    </div>
+
+    <div class="input-group input-group-lg" id="inputs">
+        <span class="input-group-addon" id="sizing-addon1">Stride Length</span>
+        <input type="text" class="form-control" placeholder="Enter Inches" aria-describedby="sizing-addon1" id="stride">
+    </div>
+
+    <div class="wrapper">
+        <button id="submit">SUBMIT</button>
+    </div>
+
+    <div class="verticalPadding"></div>
+
+    <div id="results"></div>
+
+    <div class="verticalPadding"></div>
+
+    <div id=footer>
+        <p id="contact">
+            <i>This project was created for EECS 352: Machine Perception of Music and Audio, a course taught at Northwestern University under the instruction of Professor Bryan Pardo, with help from Teaching Assistants Mark Cartwright and Fatemeh Pishdadian.</i>
+        </p>
+        <p id="contact">
+            <i>Please feel free to contact us with questions and feedback.  We can be reached at the email addresses below:</i>
+            <br/>
+        </p>
+        <p id="contact" style="padding-left:5em">
+            Joe:&nbsp;&nbsp;&nbsp; JosephHarris2016@u.northwestern.edu
+            <br/> Nick: &nbsp;NicholasRoy2016@u.northwestern.edu
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>

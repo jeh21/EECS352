@@ -1,0 +1,111 @@
+#logo{
+    height:3.6em;
+    width:7.5em;
+}
+
+#NUlogo{
+    height:3.7em;
+    width:3.7em;
+    margin-right:20px;
+    margin-top:-19px;
+    margin-bottom: -15px;
+}
+
+.verticalPadding { 
+    padding-top: 70px;
+}
+
+#bar{
+    width:90%;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top:5px;
+}
+
+#title{
+    font-family: sans-serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 3.5em
+}
+
+#names{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+#inputs{
+    width:25%;
+    margin: auto;
+    padding-bottom: 2%; 
+}
+
+#pace{
+
+}
+
+#stride{
+
+}
+
+.wrapper{
+    text-align: center;
+    padding-top:2%;
+
+}
+
+#submit{
+    margin:auto;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border-color:transparent;
+    background-color:rgb(234,234,234);
+    box-shadow: inset 2px 2px 10px white, 1px 1px 3px black
+}
+
+#submit:hover{
+        box-shadow: inset 1px 1px 10px rgb(100,100,100)
+
+}
+
+#aboutTitle{
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 3.5em;
+    font-style: oblique;
+    padding-bottom:2%;
+    
+}
+
+#aboutParagraph{
+    font-size:1.5em;
+    line-height: 140%;
+    width:70%;
+    margin:auto;
+    margin-bottom: 3%;
+}
+
+#contact{
+    margin:auto;
+    width:50em;
+    padding-top:1em;
+}
+
+#results{
+    text-align: center;
+    font-size:3em;
+}
+
+#rightNav{
+    font-size:1em;
+    margin-top:-8px;
+    margin-bottom:-15px;
+    text-align:right;
+}
+
+#footer{
+    background-color: rgb(234,234,234);
+    padding-bottom: 1em;
+}
+
