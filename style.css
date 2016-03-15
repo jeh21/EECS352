@@ -109,3 +109,30 @@
     padding-bottom: 1em;
 }
 
+
+.playlistTable{
+    width:70%;
+    border:2px solid black;
+    align-content: center;
+}
+
+.tableHead{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-color: rgb(234,234,234);
+    font-size: 1.5em;
+    padding-left:10px;
+    border-right: 1px solid rgb(220,220,220);
+
+    
+}
+
+td{
+    font-size: 1.3em;
+    text-align:left;
+    padding:5px !important;
+    padding-left:10px !important;
+    border-bottom: 1px solid rgb(220,220,220);
+    border-right: 1px solid rgb(220,220,220);
+}
+
