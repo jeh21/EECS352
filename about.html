@@ -45,12 +45,11 @@
             There has been significant research into the affect of listening to music while exercising. Findings reveal that listening to music with a representative tempo yields in increased motivation and productivity, as well as an increase in stamina. We are aiming to make the process of selecting music for a running workout easier by taking a user's stride length and desired pace and then providing a playlist to motivate and enhance the workout. The user inputs will be used to calculate what the bpm of the songs should be. Songs will then be chosen according to bpm. The music will ideally be pulled from a user's existing music library, and if not the playlist will be comprised of songs that can be found on Spotify. Listening to the playlist provide while our users are working out will increase their fitness and they will notice greater results.
         </p>
         <p id="aboutParagraph">
-            We chose to use the Million Song Dataset to obtain songs and metrics related to those songs. Taking the user's inputted data, we filter songs within a margin of error of the desired bpm. If the user desires to do interval training, we select songs with a bpm both noticeably higher and noticeably lower than the desired to indicate periods of high intensity and cool down, respectively. The songs are then trimmed and concatenated to create one audio file of the desired duration. We tested our software with various input bpm values to gauge if the software selected appropriate songs. Success was indicated by an outputted audio file of approximately the correct duration with songs fitting the desired workout profile.
+            Our software uses a set of locally stored songs selected by the user. Information for each song is stored in a database for easy access. BPM is calculated for each song using librosa and then stored along with the corresponding song. Taking the user's inputted data, we filter songs within a margin of error of 2% of the desired bpm. The songs are then concatenated in a random order to create one audio file of the desired duration. We tested our software with various input bpm values to gauge if the software selected appropriate songs. Success was indicated by an outputted audio file of approximately the correct duration with songs fitting the desired workout profile.
+            <br/>
+            <br/>
         </p>
 
-        <p id="aboutParagraph">
-            We are still finishing up the software, so we have yet to obtain any results. To that end, we do not have a pretty picture that illustrates our work as of yet, but we will have a completed page dedicated to results, analysis, etc. within the next week or so. Stay tuned for updates.
-        </p>
 
     </div>
 

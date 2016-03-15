@@ -41,22 +41,126 @@
 
     <div class="col-xs-1"></div>
     <div class="aboutParagraph">
+
         <p id="aboutParagraph">
-            This is a work in progress, and thus we have no conclusive results to show yet.
-            <br> But worry not! for we shall soon have all the requisite elements for this "Results" section, including, but not limited to:
-        </p>
-        <div>
-            <ul id="aboutParagraph">
-                <li>A pretty picture to illustrate our work</li>
-                <li>Actual results with thorough analysis</li>
-                <li>Definitive proof that our software accomplishes our goal</li>
-            </ul>
-        </div>
-        <p id="aboutParagraph">
-            We apologize for the inconvenience as we work to make this page a reality. Please feel free to contact us at the email addresses provide at the bottom of the page with any question or concerns.
+            Our software is very successful in achieving the desired goal. From an inputted BPM, desired duration of workout, and directory containing the song set, we can efficiently output an audio file containing songs of the correct tempo comprising a playlist of at least the desired duration.
         </p>
 
+        <p id="aboutParagraph">
+            There were several design choices that we made in order improve our software. We put a 2% range on the desired BPM when selecting songs to increase the amount of songs allowed through the filter. This allowed for a more diverse selection and minimized the risk of not having enough songs to fill a playlist of the desired length. Also, we chose to use the desired duration as a minimum constraint. This guarantees the requisite level of exercise while also urging users to push beyond to enhance cardiovascular improvement.
+        </p>
+
+        <p id="aboutParagraph">
+            In an effort to measure the effectiveness of our software, we enlisted the help of several runners. We measured their running stride length and asked for a desired pace to calculate the necessary BPM. Using a set of songs provided by the runner and the desired run duration, we used our software to create a playlist that would aid in performance. For the sake of control, runners used a treadmill instead of running outdoors. After their runs, we asked the participants several questions relating to their experience. Overall we found that users focused less on watching the timer on the treadmill, which gave the impression that time was going by faster. Having a playlist of a known duration led to increased focus on running. Also, users enjoyed having their steps synced to their own music. Normally, runners will have a playlist that they enjoy listening to, but will not necessarily have the ideal BPM. In our software, using music provided by users ensures that the music is enjoyable, while the software itself ensures that the choice of music is productive.
+        </p>
     </div>
+
+    <table class="playlistTable" align="center">
+        <caption>
+            <b>Slow Playlist:</b> Playlist created by our software with a target BPM of 80 and a desired duration of 30 minutes.
+        </caption>
+        <tr>
+            <th class="tableHead">Song Title</th>
+            <th class="tableHead">Artist</th>
+            <th class="tableHead">Length</th>
+            <th class="tableHead">BPM</th>
+        </tr>
+        <tr>
+            <td class="tableCell">Know Your Enemy</td>
+            <td class="tableCell">Rage Against the Machine</td>
+            <td class="tableCell">4:55</td>
+            <td class="tableCell">161</td>
+        </tr>
+        <tr>
+            <td class="tableCell">She's A Rebel</td>
+            <td class="tableCell">Green Day</td>
+            <td class="tableCell">2:00</td>
+            <td class="tableCell">161</td>
+        </tr>
+        <tr>
+            <td class="tableCell">People to People</td>
+            <td class="tableCell">State Radio</td>
+            <td class="tableCell">4:18</td>
+            <td class="tableCell">80</td>
+        </tr>
+        <tr>
+            <td class="tableCell">Electric Land</td>
+            <td class="tableCell">Bad Company</td>
+            <td class="tableCell">5:30</td>
+            <td class="tableCell">161</td>
+        </tr>
+        <tr>
+            <td class="tableCell">Savior</td>
+            <td class="tableCell">Rise Against</td>
+            <td class="tableCell">4:02</td>
+            <td class="tableCell">161</td>
+        </tr>
+        <tr>
+            <td class="tableCell">Stan</td>
+            <td class="tableCell">Eminem</td>
+            <td class="tableCell">6:44</td>
+            <td class="tableCell">161</td>
+        </tr>
+        <tr>
+            <td class="tableCell">San Francisco Bay Blues</td>
+            <td class="tableCell">Eric Clapton</td>
+            <td class="tableCell">3:23</td>
+            <td class="tableCell">80</td>
+        </tr>
+    </table>
+
+    <div class="verticalPadding"></div>
+
+    <table class="playlistTable" align="center">
+        <caption>
+            <b>Fast Playlist:</b> Playlist created by our software with a target BPM of 135 and a desired duration of 20 minutes.
+        </caption>
+        <tr>
+            <th class="tableHead">Song Title</th>
+            <th class="tableHead">Artist</th>
+            <th class="tableHead">Length</th>
+            <th class="tableHead">BPM</th>
+        </tr>
+        <tr>
+            <td class="tableCell">Green Onions</td>
+            <td class="tableCell">Booker T. &amp; the MG's</td>
+            <td class="tableCell">2:56</td>
+            <td class="tableCell">67</td>
+        </tr>
+        <tr>
+            <td class="tableCell">Come Down</td>
+            <td class="tableCell">Bush</td>
+            <td class="tableCell">5:27</td>
+            <td class="tableCell">135</td>
+        </tr>
+        <tr>
+            <td class="tableCell">Go On Your Way</td>
+            <td class="tableCell">Fleetwood Mac</td>
+            <td class="tableCell">3:39</td>
+            <td class="tableCell">135</td>
+        </tr>
+        <tr>
+            <td class="tableCell">Hold On</td>
+            <td class="tableCell">Green Day</td>
+            <td class="tableCell">2:57</td>
+            <td class="tableCell">67</td>
+        </tr>
+        <tr>
+            <td class="tableCell">Something For Nothing</td>
+            <td class="tableCell">Rush</td>
+            <td class="tableCell">3:58</td>
+            <td class="tableCell">135</td>
+        </tr>
+        <tr>
+            <td class="tableCell">Girl's Got Rhythm</td>
+            <td class="tableCell">AC/DC</td>
+            <td class="tableCell">3:24</td>
+            <td class="tableCell">135</td>
+        </tr>
+
+    </table>
+    
+    <div class="verticalPadding"></div>
 
 
     <div id=footer>
